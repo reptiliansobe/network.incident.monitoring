@@ -35,6 +35,9 @@ This project covers the full incident lifecycle the way a help desk or NOC team 
 | Monitoring host | Ubuntu Linux running the Python scripts |
 
 
+<img width="809" height="439" alt="image" src="https://github.com/user-attachments/assets/c1cea98e-6829-4e42-9343-28793d43d0e6" />
+
+
 
 ## Example incident: DNS misconfiguration
 
@@ -73,6 +76,9 @@ cp config.example.py config.py
 # 4. Run the monitor
 python3 [your main script name].py
 ```
+
+<img width="1897" height="960" alt="c4" src="https://github.com/user-attachments/assets/67bd5f15-cde3-4bd4-9c0d-13427254fefd" />
+
 
 Settings such as device IPs, the ticketing API address, and email server details are kept in a config file. **No credentials are stored in this repository.**
 
